@@ -1,0 +1,47 @@
+.errorMassage {
+    color: red;
+}
+
+.loginContainer {
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 40%;
+}
+
+.loginForm {
+    margin: 20% 0 10%;
+}
+
+.buttonSubmit {
+    margin-top: 5%;
+}
+
+.buttonSubmit button {
+    width: 50%;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.formInput {
+    margin-bottom: 20px;
+}
+
+.formInput label {
+    font-size: 18px;
+}
+
+.formInput input {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.loginTitle {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    top: 30px;
+    background-color: #3f51b5 !important;
+    color: white !important;
+}

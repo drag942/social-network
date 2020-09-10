@@ -1,0 +1,41 @@
+
+.iconContainer {
+    background-color: rgba(0, 0, 0, .3);
+    width: 97px;
+    position: absolute;
+    border-radius: 90px ;
+    top: 0;
+    left: 0;
+    height: 97px;
+    cursor: pointer;
+    animation: fadeIn ease-in .15s;
+}
+
+.icon {
+    color: white ;
+    position: absolute ;
+    top: 38% ;
+    left: 38%;
+    width: 40px;
+}
+
+.iconProgress {
+    color: white !important;
+    width: 30px !important;
+    height: 30px !important;
+    position: absolute;
+    top: 35% ;
+    left: 35%;
+}
+
+
+
+@keyframes fadeIn {
+    from {
+        transform: scale(.1);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+

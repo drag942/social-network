@@ -1,0 +1,57 @@
+
+
+.usersContainer {
+    max-width: 70%;
+    margin-left: 10%;
+}
+
+.moreUsersButton {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.userBlock {
+    display: flex;
+    margin-top: 20px;
+    min-height: 120px;
+}
+
+.userBlock a{
+    text-decoration: none;
+}
+
+.avatarBlock  {
+    margin: auto;
+    flex: 1;
+}
+
+.userAvatar {
+    margin: auto;
+    width: 80px !important;
+    height: 80px !important;
+    font-size: 30px !important;
+}
+
+.userInfoBlock {
+    flex: 6;
+    margin: auto;
+}
+
+.userName {
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 500;
+    color: #3f51b5;
+}
+
+.buttonFollow {
+    text-align: right;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
+.buttonFollow button {
+    font-weight: bold;
+}
+
+
